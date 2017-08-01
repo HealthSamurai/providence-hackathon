@@ -1,0 +1,40 @@
+{
+	"resourceType": "Patient",
+	"id": "pt-daughter-miranda-ferrell",
+	"link": [{
+			"other": {
+				"reference": "RelatedPerson/rp-daughter-miranda-ferrell-to-mother"
+			},
+			"type": "seealso"
+		}
+	],
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Patient Miranda Ferrell</b></p></div>"
+	},
+	"name": [{
+			"use": "usual",
+			"text": "Miranda Ferrell",
+			"given": [
+				"Miranda"
+			],
+			"family": [
+				"Ferrell"
+			]
+		}
+	],
+	"gender": "female",
+	"birthDate": "2009-12-17",
+	"address": [{
+			"use": "home",
+			"city": "Garden Grove",
+			"line": [
+				"P.O. Box 179, 4529 Nascetur Avenue"
+			],
+			"state": "TN",
+			"district": "Forest County",
+			"postalCode": "86049"
+		}
+	],
+	"active": true
+}

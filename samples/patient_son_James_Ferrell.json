@@ -1,0 +1,100 @@
+{
+	"resourceType": "Patient",
+	"id": "pt-son-james-ferrell",
+	"link": [{
+			"other": {
+				"reference": "RelatedPerson/rp-son-james-ferrell-to-mother"
+			},
+			"type": "seealso"
+		}
+	],
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Patient James Ferrell</b></p></div>"
+	},
+	"name": [{
+			"use": "usual",
+			"text": "James Ferrell",
+			"given": [
+				"James"
+			],
+			"family": [
+				"Ferrell"
+			]
+		}
+	],
+	"gender": "male",
+	"birthDate": "2000-09-14",
+	"maritalStatus": {
+		"text": "Never Married",
+		"coding": [{
+				"code": "S",
+				"system": "http://hl7.org/fhir/v3/MaritalStatus",
+				"display": "Never Married"
+			}
+		]
+	},
+	"address": [{
+			"use": "home",
+			"city": "Garden Grove",
+			"line": [
+				"P.O. Box 179, 4529 Nascetur Avenue"
+			],
+			"state": "TN",
+			"district": "Forest County",
+			"postalCode": "86049"
+		}
+	],
+	"active": true,
+	"communication": [{
+			"language": {
+				"coding": [{
+						"code": "en",
+						"system": "urn:ietf:bcp:47"
+					}
+				]
+			},
+			"preferred": true
+		}
+	],
+	"identifier": [{
+			"use": "usual",
+			"type": {
+				"coding": [{
+						"code": "SS",
+						"system": "http://hl7.org/fhir/v2/0203"
+					}
+				]
+			},
+			"value": "000000724",
+			"system": "http://hl7.org/fhir/sid/us-ssn"
+		}
+	],
+	"telecom": [{
+			"use": "mobile",
+			"rank": 1,
+			"value": "122.108.2548",
+			"system": "phone"
+		}, {
+			"rank": 1,
+			"value": "consectetuer@etmagnisdis.ca",
+			"system": "email"
+		}
+	],
+	"contact": [{
+			"organization": {
+				"display": "School #698"
+			},
+			"relationship": [{
+					"text": "Employer / School",
+					"coding": [{
+							"code": "e",
+							"system": "http://hl7.org/fhir/v2/0131",
+							"display": "Employer"
+						}
+					]
+				}
+			]
+		}
+	]
+}

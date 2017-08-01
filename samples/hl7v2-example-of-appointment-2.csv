@@ -1,0 +1,5 @@
+MSH|^~\&|app|sender|HL7API|PKB|201303080949||SIU^S12|ABC0000000001|P|2.4
+PID|||5555555555^^^NHS^NH||Smith^John^Joe^^Mr||19700101|M|||My flat name^1, The Road^London^London^SW1A 1AA^GBR||john.smith@hotmail.com^NET~01234567890^PRN~07123456789^PRS|john.smith@company.com^NET~01234098765^WPN||||||||||||||||N|
+SCH|ID123||||||^checkup^||||^^^201411201231^201411201232|||||||||||||||
+NTE|||My comment|
+PV1|||^^^^^^^^health centre

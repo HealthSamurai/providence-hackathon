@@ -1,0 +1,112 @@
+{
+  "resourceType": "Practitioner",  
+  "id": "pr-loffarelli",
+  "name": [
+    {
+      "use": "official",
+      "given": [
+        "JOHN",
+        "J"
+      ],
+      "family": [
+        "LOFFARELLI"
+      ],
+      "prefix": [
+        "DR.",
+        "DO"
+      ]
+    }
+  ],
+    "role": [
+    {
+      "identifier": [
+        {
+          "system": "us-license",
+          "value": "2767568395-21",
+          "extension": {
+            "state": "WI"
+          }
+        }
+      ],
+      "specialty": [
+        {
+          "coding": [
+            {
+              "system": "http://nucc.org/provider-taxonomy",
+              "code": "207R00000X",
+              "display": "Internal Medicine"
+            }
+          ]
+        }
+      ],
+      "extension": {
+        "primary_taxonomy": "N"
+      }
+    },
+    {
+      "identifier": [
+        {
+          "system": "us-license",
+          "value": "8209036418",
+          "extension": {
+            "state": "OH"
+          }
+        }
+      ],
+      "specialty": [
+        {
+          "coding": [
+            {
+              "system": "http://nucc.org/provider-taxonomy",
+              "code": "208M00000X",
+              "display": "Hospitalist"
+            }
+          ]
+        }
+      ],
+      "extension": {
+        "primary_taxonomy": "Y"
+      }
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "city": "WENATCHEE",
+      "country": "US",
+      "line": [
+        "896 N CHELAN AVE"
+      ],
+      "state": "WA",
+      "postalCode": "486242205"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "type": {
+        "text": "Provider number",
+        "coding": [
+          {
+            "code": "PRN",
+            "display": "Provider number"
+          }
+        ]
+      },
+      "value": "6843207719"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "use": "work",
+      "value": "1588428050"
+    },
+    {
+      "system": "phone",
+      "use": "mailing",
+      "value": "8242558619"
+    }
+  ],
+  "gender": "male"
+}

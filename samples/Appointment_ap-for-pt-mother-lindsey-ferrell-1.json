@@ -1,0 +1,82 @@
+{
+	"resourceType": "Appointment",
+	"id": "ap-for-pt-mother-lindsey-ferrell-1",
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Routine gynaecologic examination</div>"
+	},
+	"status": "booked",
+	"serviceCategory": {
+		"coding": [{
+				"system": "http://hl7.org/fhir/ValueSet/service-category",
+				"code": "28",
+				"display": "Specialist Obstetrics & Gynaecology"
+			}
+		]
+	},
+	"serviceType": [{
+			"coding": [{
+					"system": "http://hl7.org/fhir/service-type",
+					"code": "559",
+					"display": "Women's Health"
+				}
+			]
+		}
+	],
+	"specialty": [{
+			"coding": [{
+					"system": "http://snomed.info/sct",
+					"code": "394586005",
+					"display": "Gynaecology"
+				}
+			]
+		}
+	],
+	"appointmentType": {
+		"coding": [{
+				"system": "http://example.org/appointment-type",
+				"code": "routine",
+				"display": "Routine appointment"
+			}
+		]
+	},
+	"reason": {
+		"text": "Routine gynaecologic examination",
+		"coding": [{
+				"system": "http://snomed.info/sct",
+				"code": "702601001",
+				"display": "Routine gynaecologic examination"
+			}
+		]
+	},
+	"priority": 5,
+	"description": "Routine gynaecologic examination",
+	"start": "2017-08-25T11:00:00Z",
+	"end": "2017-08-25T12:00:00Z",
+	"created": "2017-08-01",
+	"comment": "Routine gynaecologic examination",
+	"participant": [{
+			"actor": {
+				"reference": "Patient/pt-mother-lindsey-ferrell",
+				"display": "Lindsey Ferrell"
+			},
+			"required": "required",
+			"status": "accepted"
+		}, {
+			"type": [{
+					"coding": [{
+							"system": "http://hl7.org/fhir/v3/ParticipationType",
+							"code": "ATND"
+						}
+					]
+				}
+			],
+			"actor": {
+				"reference": "Practitioner/pr-cooper",
+				"display": "DR. CONSTANCE COOPER, M.D."
+			},
+			"required": "required",
+			"status": "accepted"
+		}
+	]
+}

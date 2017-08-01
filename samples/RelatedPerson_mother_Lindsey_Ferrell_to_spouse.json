@@ -1,0 +1,27 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "rp-mother-lindsey-ferrell-to-spouse",
+  "patient": {
+    "reference": "Patient/pt-father-mario-ferrell"
+  },
+  "name": [{
+			"use": "usual",
+			"text": "Lindsey Ferrell",
+			"given": [
+				"Lindsey"
+			],
+			"family": [
+				"Ferrell"
+			]
+		}
+	],
+  "birthDate": "1972-09-20",
+  "relationship": {
+    "coding": [
+      {
+        "code": "SPS"
+      }
+    ],
+	"text":"spouse"
+  }
+}

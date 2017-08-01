@@ -1,0 +1,56 @@
+{
+	"resourceType": "MedicationOrder",
+	"status": "active",
+	"id": "mo-for-pt-son-james-ferrell-1",	
+	"patient": {
+		"reference": "Patient/pt-son-james-ferrell"
+	},
+	"medicationCodeableConcept": {
+		"text": "Choline 65 MG Oral Tablet",
+		"coding": [{
+				"code": "245810",
+				"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+				"display": "Choline 65 MG Oral Tablet"
+			}
+		]
+	},
+	"encounter": {
+		"reference": "Encounter/enc-for-pt-son-james-ferrell-1"
+	},
+	"dateWritten": "2017-06-09T14:50:15.128Z",
+	"prescriber": {
+		"reference": "Practitioner/pr-loffarelli",
+		"display": "DR. JOHN LOFFARELLI"
+	},
+	"reasonReference": [{
+			"reference": "Condition/dx-for-pt-son-james-ferrell-1"
+		}
+	],
+	"dosageInstruction": [{
+			"route": {
+				"text": "Oral route (qualifier value)",
+				"coding": [{
+						"code": "26643006",
+						"system": "http://snomed.info/sct",
+						"display": "Oral route (qualifier value)"
+					}
+				]
+			},
+			"timing": {
+				"code": {
+					"coding": [{
+							"code": "q12h"
+						}
+					]
+				}
+			},
+			"doseQuantity": {
+				"code": "428641000",
+				"unit": "Capsule - unit of product usage (qualifier value)",
+				"value": 5,
+				"system": "http://snomed.info/sct"
+			}
+		}
+	]
+
+}

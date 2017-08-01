@@ -1,0 +1,82 @@
+{
+	"resourceType": "Appointment",
+	"id": "ap-for-pt-daughter-miranda-ferrell-1",
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">EKG</div>"
+	},
+	"status": "booked",
+	"serviceCategory": {
+		"coding": [{
+				"system": "http://hl7.org/fhir/ValueSet/service-category",
+				"code": "27",
+				"display": "Specialist Medical"
+			}
+		]
+	},
+	"serviceType": [{
+			"coding": [{
+					"system": "http://hl7.org/fhir/service-type",
+					"code": "175",
+					"display": "Medical Oncology"
+				}
+			]
+		}
+	],
+	"specialty": [{
+			"coding": [{
+					"system": "http://snomed.info/sct",
+					"code": "394592004",
+					"display": "Clinical oncology"
+				}
+			]
+		}
+	],
+	"appointmentType": {
+		"coding": [{
+				"system": "http://example.org/appointment-type",
+				"code": "routine",
+				"display": "Routine appointment"
+			}
+		]
+	},
+	"reason": {
+		"text": "Immunotherapy for cancer",
+		"coding": [{
+				"system": "http://snomed.info/sct",
+				"code": "64644003",
+				"display": "Immunotherapy for cancer"
+			}
+		]
+	},
+	"priority": 4,
+	"description": "Immunotherapy for cancer",
+	"start": "2017-08-20T13:00:00Z",
+	"end": "2017-08-20T15:00:00Z",
+	"created": "2017-08-01",
+	"comment": "Immunotherapy for cancer",
+	"participant": [{
+			"actor": {
+				"reference": "Patient/pt-daughter-miranda-ferrell",
+				"display": "Miranda Ferrell"
+			},
+			"required": "required",
+			"status": "accepted"
+		}, {
+			"type": [{
+					"coding": [{
+							"system": "http://hl7.org/fhir/v3/ParticipationType",
+							"code": "ATND"
+						}
+					]
+				}
+			],
+			"actor": {
+				"reference": "Practitioner/pr-loffarelli",
+				"display": "DR. JOHN LOFFARELLI"
+			},
+			"required": "required",
+			"status": "accepted"
+		}
+	]
+}

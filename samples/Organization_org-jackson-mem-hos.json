@@ -1,0 +1,63 @@
+{
+  "resourceType": "Organization",
+  "id": "org-jackson-mem-hos", 
+  "name": "JACKSON MEM HOS",
+  "type": {
+    "coding": [
+      {
+        "code": "282N00000X",
+        "system": "http://nucc.org/provider-taxonomy",
+        "display": "General Acute Care Hospital"
+      }
+    ]
+  },
+  "address": [
+    {
+      "use": "work",
+      "city": "MIAMI",
+      "country": "US",
+      "line": [
+        "6788 NW 12TH AVE"
+      ],
+      "state": "FL",
+      "postalCode": "2518519390"
+    },
+    {
+      "use": "postal",
+      "city": "LAKE WORTH",
+      "country": "US",
+      "line": [
+        "61765 OAK MEADOW LN"
+      ],
+      "state": "FL",
+      "postalCode": "6115667520"
+    }
+  ],  
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "type": {
+        "text": "Provider number",
+        "coding": [
+          {
+            "code": "PRN",
+            "display": "Provider number"
+          }
+        ]
+      },
+      "value": "8734708438"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "use": "work",
+      "value": "6786149159"
+    },
+    {
+      "system": "phone",
+      "use": "mailing",
+      "value": "6377869523"
+    }
+  ]  
+}

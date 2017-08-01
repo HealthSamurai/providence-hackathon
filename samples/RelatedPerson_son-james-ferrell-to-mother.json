@@ -1,0 +1,27 @@
+{
+	"resourceType": "RelatedPerson",
+	"id": "rp-son-james-ferrell-to-mother",
+	"patient": {
+		"reference": "Patient/pt-mother-lindsey-ferrell"
+	},
+	"name": [{
+			"use": "usual",
+			"text": "James Ferrell",
+			"given": [
+				"James"
+			],
+			"family": [
+				"Ferrell"
+			]
+		}
+	],
+	"gender": "male",
+	"birthDate": "2000-09-14",
+	"relationship": {
+		"coding": [{
+				"code": "SONC"
+			}
+		],
+		"text": "son"
+	}
+}

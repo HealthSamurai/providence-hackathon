@@ -1,0 +1,27 @@
+{
+	"resourceType": "RelatedPerson",
+	"id": "rp-daughter-miranda-ferrell-to-mother",
+	"patient": {
+		"reference": "Patient/pt-mother-lindsey-ferrell"
+	},
+	"name": [{
+			"use": "usual",
+			"text": "Miranda Ferrell",
+			"given": [
+				"Miranda"
+			],
+			"family": [
+				"Ferrell"
+			]
+		}
+	],
+	"gender": "female",
+	"birthDate": "2009-12-17",
+	"relationship": {
+		"coding": [{
+				"code": "DAUC"
+			}
+		],
+		"text": "daughter"
+	}
+}

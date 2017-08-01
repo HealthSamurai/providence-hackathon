@@ -1,0 +1,134 @@
+{
+  "resourceType": "Practitioner",  
+  "id": "pr-cooper",
+  "name": [
+    {
+      "use": "official",
+	  "text": "DR. CONSTANCE COOPER, M.D.",
+      "given": [
+        "CONSTANCE",
+        "D"
+      ],
+      "family": [
+        "COOPER"
+      ],
+      "prefix": [
+        "DR.",
+        "M.D."
+      ]
+    }
+  ],
+  "role": [
+    {
+      "identifier": [
+        {
+          "system": "us-license",
+          "value": "K4302963845",
+          "extension": {
+            "state": "TX"
+          }
+        }
+      ],
+      "specialty": [
+        {
+          "coding": [
+            {
+              "system": "http://nucc.org/provider-taxonomy",
+              "code": "207V00000X",
+              "display": "Obstetrics & Gynecology"
+            }
+          ]
+        }
+      ]      
+    },
+    {
+      "identifier": [
+        {
+          "system": "us-license",
+          "value": "1817796613",
+          "extension": {
+            "state": "LA"
+          }
+        }
+      ],
+      "specialty": [
+        {
+          "coding": [
+            {
+              "system": "http://nucc.org/provider-taxonomy",
+              "code": "207V00000X",
+              "display": "Obstetrics & Gynecology"
+            }
+          ]
+        }
+      ]      
+    },
+    {
+      "identifier": [
+        {
+          "system": "us-license",
+          "value": "6991032937",
+          "extension": {
+            "state": "AL"
+          }
+        }
+      ],
+      "specialty": [
+        {
+          "coding": [
+            {
+              "system": "http://nucc.org/provider-taxonomy",
+              "code": "207V00000X",
+              "display": "Obstetrics & Gynecology"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "city": "MOBILE",
+      "country": "US",
+      "line": [
+        "324 N BAYOU ST"
+      ],
+      "state": "AL",
+      "postalCode": "7007899167"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "type": {
+        "text": "Provider number",
+        "coding": [
+          {
+            "code": "PRN",
+            "display": "Provider number"
+          }
+        ]
+      },
+      "value": "7168071090"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "use": "work",
+      "value": "9479117855"
+    },
+    {
+      "system": "phone",
+      "use": "mailing",
+      "value": "1034579096"
+    },
+    {
+      "system": "fax",
+      "use": "work",
+      "value": "4836363639"
+    }
+  ],
+  "gender": "female"
+}
