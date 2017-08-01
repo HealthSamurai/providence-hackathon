@@ -1,0 +1,7 @@
+*.dependencies
+*.log
+*.properties
+*repl-port
+node_modules
+dist
+

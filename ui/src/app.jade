@@ -1,0 +1,30 @@
+html(ng-app='app')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Providence hackathon
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon', href='/favicon.png' type="image/x-icon")
+
+  body
+    nav.navbar.navbar-default.navbar-static-top(role='navigation')
+      .container
+        #navbar.navbar
+          .navbar-header
+            a.navbar-brand(href='#')  Sample Application
+          ul.nav.navbar-nav.navbar-right
+            li.login(ng-if='user')
+              a(href='#') {{user.email}}
+            li(ng-if='!user')
+              a(ng-click='auth.signin()', href='#') Sign in
+            li(ng-if='user')
+              a(ng-click='auth.signout()', href='#') Sign out
+
+
+    flash-message
+    #view(ng-view='')
+    #footer
+
+    link(rel='stylesheet', type="text/css", href="/#{module}.css", media="screen")
+    script(src='#{module}.js')
+    script(src="http://localhost:35729/livereload.js")
