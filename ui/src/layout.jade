@@ -11,10 +11,10 @@ html(ng-app='app')
       .container
         #navbar.navbar
           .navbar-header
-            a.navbar-brand(href='#')  Sample Application
+            a.navbar-brand(href='#/')  Sample Application
           ul.nav.navbar-nav.navbar-right
             li.login(ng-if='user')
-              a(href='#') {{user.email}}
+              a(href='#/') {{user.email}}
             li(ng-if='!user')
               a(ng-click='auth.signin()', href='#') Sign in
             li(ng-if='user')

@@ -8,7 +8,6 @@ require("./cdn/js/angular-flash.min.js")
 require('angular-utils-pagination')
 require('angular-loading-bar')
 require("aidboxjs")
-require('locallyjs')
 
 // CSS
 require('./cdn/css/bootstrap.min.css')

@@ -1,4 +1,9 @@
-.container
-  h1 Patient list
-  pre {{ data }}
-  
+.container(ng-if="user")
+  h3 Family
+  div(ng-repeat="pt in family")
+    div
+      a(href="#/patient/{{pt.patient.id}}")
+        {{ pt.patient.name[0].given[0] }} {{ pt.patient.name[0].family[0] }}
+
+.container.text-center(ng-if="!user")
+  a.btn.btn-lg.btn-primary(ng-click='auth.signin()', href='#') Sign in

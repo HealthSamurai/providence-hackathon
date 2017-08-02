@@ -1,0 +1,16 @@
+.container
+  a(href="#/") <- Back
+  div.patinet-info
+    b{{ patient.name[0].given[0] }} {{ patient.name[0].family[0] }}
+    pre {{ patient | json}}
+
+  div.medications
+    b Medications
+    div(ng-repeat="m in medications")
+      pre {{m | json}}
+
+  div.appointments
+    b Appointments
+    div(ng-repeat="a in appointments")
+      pre {{a | json}}
+
