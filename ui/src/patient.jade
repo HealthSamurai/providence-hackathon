@@ -12,5 +12,6 @@
   div.appointments
     b Appointments
     div(ng-repeat="a in appointments")
+      p {{a.reason.text}}
       pre {{a | json}}
 

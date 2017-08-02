@@ -9,6 +9,7 @@
     "aidboxjs": "1.3.3",
     "angular-utils-pagination": "latest",
     "angular-loading-bar": "^0.9.0",
+    "ng-cache-loader": "0.0.21",
     "bootstrap": "3.3.6",
     "css-loader": "0.25.0",
     "csvwriter": "^1.1.0",

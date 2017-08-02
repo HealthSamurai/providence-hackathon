@@ -1,5 +1,15 @@
 # providence-hackathon
 
+## UI
+
+```sh
+npm install
+npm run start
+```
+
+login:  patient@com
+pass:   patient
+
 ## Добавить ресурсы Bundle в Aidbox:
 
 POST /fhir/ 
