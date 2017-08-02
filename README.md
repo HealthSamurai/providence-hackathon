@@ -5,6 +5,8 @@
 ```sh
 npm install
 npm run start
+npm run build
+aws s3 cp dist s3://providence-hackathon --recursive
 ```
 
 login:  patient@com
